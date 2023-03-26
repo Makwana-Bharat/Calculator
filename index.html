@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hisab Kitab</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+
+<body class="center">
+    <div class="calC">
+        <i class="fa-solid fa-sun" id="theme"></i>
+        <div class="result">
+            <div class="history"></div>
+            <div class="answer">0</div>
+        </div>
+        <Button id="erase"><i class="fa-solid fa-eraser"></i></Button>
+        <div class="buttons">
+            <div class="row">
+                <Button value="%" class="op" onclick="CalC(this.value)"><i class="fa-solid fa-percent"></i></Button>
+                <Button value="7" onclick="CalC(this.value)"><i class="fa-solid fa-7"></i></Button>
+                <Button value="4" onclick="CalC(this.value)"><i class="fa-solid fa-4"></i></Button>
+                <Button value="1" onclick="CalC(this.value)"><i class="fa-solid fa-1"></i></Button>
+                <Button value="+/-" onclick="CalC(this.value)"><i class="fa-solid fa-plus-minus"></i></Button>
+            </div>
+            <div class="row">
+                <Button value="/" class="op" onclick="CalC(this.value)"><i class="fa-solid fa-divide"></i></Button>
+                <Button value="8" onclick="CalC(this.value)"><i class="fa-solid fa-8"></i></Button>
+                <Button value="5" onclick="CalC(this.value)"><i class="fa-solid fa-5"></i></Button>
+                <Button value="2" onclick="CalC(this.value)"><i class="fa-solid fa-2"></i></Button>
+                <Button value="0" onclick="CalC(this.value)"><i class="fa-solid fa-0"></i></Button>
+            </div>
+            <div class="row">
+                <Button value="*" class="op" onclick="CalC(this.value)"><i class="fa-solid fa-xmark"></i></Button>
+                <Button value="9" onclick="CalC(this.value)"><i class="fa-solid fa-9"></i></Button>
+                <Button value="6" onclick="CalC(this.value)"><i class="fa-solid fa-6"></i></Button>
+                <Button value="3" onclick="CalC(this.value)"><i class="fa-solid fa-3"></i></Button>
+                <Button value="." onclick="CalC(this.value)"><i class="fa-solid fa-circle"
+                        style="font-size:5px;"></i></Button>
+            </div>
+            <div class="row">
+                <Button value="C" onclick="CalC(this.value)"><i class="fa-solid fa-delete-left"></i></Button>
+                <Button value="-" class="op" onclick="CalC(this.value)"><i class="fa-solid fa-minus"></i></Button>
+                <Button value="+" class="op" onclick="CalC(this.value)"><i class="fa-solid fa-plus"></i></Button>
+                <Button value="=" id="equl" onclick="CalC(this.value)"
+                    style="height: 80px;border-radius: 5px;width:40px ;background: #c23b3b;"><i
+                        class="fa-solid fa-equals"></i></Button>
+            </div>
+        </div>
+    </div>
+    <script src="JavaScript.js">
+    </script>
+</body>
+
+</html>
