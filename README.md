@@ -1,14 +1,15 @@
 # Calculator
 
-## UI 
-  ### Dark
-![image](https://github.com/AJAX-Codder/Calculator/assets/126388812/bac145f0-ddd5-4a1c-a93e-76dd775ddadc)
+### Dark
+![image](https://github.com/AJAX-Codder/Calculator/assets/126388812/acf70169-8cc6-4474-9b2d-1ecead198e3b)
 
-  ### Light
- ![image](https://github.com/AJAX-Codder/Calculator/assets/126388812/77df15e7-d2bf-4224-8478-037646e88600)
+
+### Light
+![image](https://github.com/AJAX-Codder/Calculator/assets/126388812/f8f60ab9-40e2-4a4b-97c4-f380b0b14b4e)
 
 ## History 
-![image](https://github.com/AJAX-Codder/Calculator/assets/126388812/8b4f5fac-67e3-49d3-a568-f61a98e955a3)
+![image](https://github.com/AJAX-Codder/Calculator/assets/126388812/978fd1c7-6edf-45ea-8d82-518edda0b4af)
+
 
 ## Functionality 
   
