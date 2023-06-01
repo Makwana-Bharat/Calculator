@@ -17,7 +17,7 @@
   
     Additon ➕ 
     Subtraction ➖ 
-    Multiplicationmuk ✖ 
+    Multiplication ✖ 
     Division ➗ 
     Modulo 
     
